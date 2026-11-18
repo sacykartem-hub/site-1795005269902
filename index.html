@@ -1,0 +1,183 @@
+```html
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elitarna Agencja Web Developmentu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background: linear-gradient(to right, #2a2a2a, #444);
+            text-align: center;
+            padding: 100px 0;
+            color: #ffffff;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 50px 0;
+        }
+        .service-card {
+            background: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 280px;
+            text-align: center;
+        }
+        .service-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .service-card h3 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .service-card p {
+            font-size: 16px;
+            margin: 0 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #0088cc;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #0077b3;
+        }
+        .footer {
+            background: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+            .hero p {
+                font-size: 16px;
+            }
+            .service-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <h1>Elitarna Agencja Web Developmentu</h1>
+            <p>Nasze strony internetowe to nie tylko kod, ale artystyczne realizacje Twojego pomysłu.</p>
+            <div class="cta-button">Zapraszamy do współpracy!</div>
+        </section>
+        <section class="about">
+            <h2>O Nas</h2>
+            <p>Nasza agencja-web developmentu jest zespołem profesjonalistów, którzy stworzą dla Ciebie piękną i funkcjonalną stronę internetową. Z naszymi doświadczeniami w zakresie technologii front-end, zapewniamy, że Twoja strona będzie elegancka, ulepszająca Twoją marke. Chciałbyś wiedzieć, kim jesteśmy? Naszymi zasobami są doświadczenia, talent i chęć kontynuowania naszej pracy w najbardziej wysokiej jakości. Znajdziesz nas na rynku jako agencji, która pochłania wszystkie detaily i buduje strony, które są nie tylko piękne, ale także przyciągają atencion.</p>
+        </section>
+        <section class="services">
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1609977220686-39f98c46e3d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2lyaWd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Desing">
+                <h3>Projektowanie UI/UX</h3>
+                <p>Tworzymy nie tylko funkcjonalne, ale również piękne interfejsy użytkownika, które zawsze zwracają uwagę.</p>
+                <a href="#" class="cta-button">Dowiedz się więcej</a>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1518606373218-fdd14f8b0c3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3RyYWZ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Development">
+                <h3>Tworzenie Kodu</h3>
+                <p>Wdrażamy najnowsze technologie, aby stworzyć strony, które działają płynnie i są optimalne dla wszystkich urządzeń.</p>
+                <a href="#" class="cta-button">Dowiedz się więcej</a>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1531512073830-ba890ca4265c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3V0c1x8MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Maintenance">
+                <h3>Obsługa i Zarządzanie</h3>
+                <p>Nasze strony nie tylko są piękne, ale także są monitorowane i utrzywane regularnie, aby były w najszerszej funkcjonalności.</p>
+                <a href="#" class="cta-button">Dowiedz się więcej</a>
+            </div>
+        </section>
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Zaprezentowaliśmy kilka przykładów naszego worku, które możesz zobaczyć. Jest to tylko odrobinę z naszego portfolio, ale nasze doświadczenie jest niezwykle zróżnicowane i skojarzone z wieloma projektami.</p>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1522205408450-add1145ab97b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3RyYWZ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Project 1">
+                <h3>Projekt 1</h3>
+                <p>Opis projektu 1</p>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2R1Y3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Project 2">
+                <h3>Projekt 2</h3>
+                <p>Opis projektu 2</p>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1517251861019-f476c83f21bf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3RyYWZ8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="Project 3">
+                <h3>Projekt 3</h3>
+                <p>Opis projektu 3</p>
+            </div>
+        </section>
+        <section class="reviews">
+            <h2>Opinie Klientów</h2>
+            <p>Nasze klienci są naszym najlepszym marketingiem. Znamy ich zdolności i zalety i z przyjemnością przekazujemy ich do Twojej wiedzy.</p>
+            <div class="service-card">
+                <h3>Jakub Kowalski</h3>
+                <p>Strona, którą zbudowaliście dla mnie, jest nie tylko atrakcyjna, ale także funkcjonalna i łatwa w użyciu. Dziękuję za waszą pracę!</p>
+            </div>
+            <div class="service-card">
+                <h3>Marta Szczerbicka</h3>
+                <p>Nasz nowy portal internetowy jest nie tylko piękny, ale także efektywny. Zastanawiam się, jak mogliśmy się do tak znamiennej firmy stracić!</p>
+            </div>
+            <div class="service-card">
+                <h3>Waldemar Szymański</h3>
+                <p>Nasza agencja web developmentu jest profesjonalistami swojego ryczałta. Zawsze mają na swoim koncie szereg sukcesów i zaszczyt na nich składać.</p>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Kontakt</h2>
+            <p>Napisz do nas lub skorzystaj z poniższych danych kontaktowych:</p>
+            <div class="service-card">
+                <h3>Adres:</h3>
+                <p>ul. Główna 12, 00-000 Warszawa</p>
+            </div>
+            <div class="service-card">
+                <h3>Telefon:</h3>
+                <p>+48 123 456 789</p>
+            </div>
+            <div class="service-card">
+                <h3>Email:</h3>
+                <p>info@elitarnaagencja.pl</p>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>&copy; 2023 Elitarna Agencja Web Developmentu. Wszelkie prawa zastrzeżone.</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
